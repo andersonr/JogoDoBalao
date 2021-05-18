@@ -43,3 +43,9 @@ Vídeo de a culpa é do cabral - jogo do balão
 - [ ]  Quiz temáticos
 - [ ]  Permitir que o jogador crie questionários
 - [ ]  Ranking dos maiores pontuadores
+
+### Modo desenvolvimento
+ - Criado com a biblioteca Next.js
+ 
+ cd jogobalao
+ npm run dev
