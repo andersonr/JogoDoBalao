@@ -4,13 +4,14 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Button from "@material-ui/core/Button";
 import ScopedCssBaseline from "@material-ui/core/ScopedCssBaseline";
+import AccessAlarmIcon from '@material-ui/icons/AccessAlarm';
 
 export default function Home() {
   return (
     <ScopedCssBaseline>
       <div className={styles.container}>
         <Head>
-          <title>Create Next App</title>
+          <title>Jogo do Balão</title>
           <meta
             name="description"
             content="Jogo do Balão mais zika do universo"
@@ -20,10 +21,7 @@ export default function Home() {
             content="minimum-scale=1, initial-scale=1, width=device-width"
           />
           <link rel="icon" href="/favicon.ico" />
-          <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/icon?family=Material+Icons"
-          />
+          <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
         </Head>
 
         <main className={styles.main}>
@@ -32,6 +30,7 @@ export default function Home() {
           </h1>
 
           <Button variant="contained" color="primary">
+            <AccessAlarmIcon color="secondary"></AccessAlarmIcon>
             Bad MotherFucker
           </Button>
 
