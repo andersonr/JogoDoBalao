@@ -1,5 +1,5 @@
-import "fontsource-roboto";
-import Head from "next/head";
+// import "fontsource-roboto";
+
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Button from "@material-ui/core/Button";
@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <ScopedCssBaseline>
       <div className={styles.container}>
-        <Head>
+        {/* <Head>
           <title>Jogo do Balão</title>
           <meta
             name="description"
@@ -22,7 +22,7 @@ export default function Home() {
           />
           <link rel="icon" href="/favicon.ico" />
           <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-        </Head>
+        </Head> */}
 
         <main className={styles.main}>
           <h1 className={styles.title}>
