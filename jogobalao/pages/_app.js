@@ -1,5 +1,4 @@
 /*!
-
 =========================================================
 * NextJS Material Kit v1.2.0 based on Material Kit Free - v2.0.2 (Bootstrap 4.0.0 Final Edition) and Material Kit React v1.8.0
 =========================================================
@@ -13,8 +12,8 @@
 =========================================================
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
 */
+
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "next/app";
@@ -82,7 +81,8 @@ export default class MyApp extends App {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
-          <title>NextJS Material Kit by Creative Tim</title>
+          <meta charSet="utf-8" />
+          <title>Jogo do Balão</title>
         </Head>
         <Component {...pageProps} />
       </React.Fragment>
