@@ -34,7 +34,7 @@ export default function LandingPage(props) {
       <Header
         color="transparent"
         routes={dashboardRoutes}
-        brand="NextJS Material Kit"
+        brand="Jogo do Balão"
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
@@ -43,27 +43,25 @@ export default function LandingPage(props) {
         }}
         {...rest}
       />
-      <Parallax filter responsive image="/img/landing-bg.jpg">
+      <Parallax filter responsive image="/img/headers/cappadocia-hot-air-balloon.jpg">
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>Your Story Starts With Us.</h1>
+              <h1 className={classes.title}>Bem vindo ao jogo mais divertido da face da terra</h1>
               <h4>
-                Every landing page needs a small description after the big bold
-                title, that{"'"}s why we added this text here. Add here all the
-                information that can make you or your product create the first
-                impression.
+                Numa mistura de Jogo do Milhão, Passa ou Repassa e a necessidade de passar uma vergonha gratuíta na frente da 
+                maior quantidade de pessoas possível. Preparamos a maior surra intelectual que você e seus amigos podem passar juntos e de graça.                
               </h4>
               <br />
               <Button
                 color="danger"
                 size="lg"
-                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ref=creativetim"
+                href="https://www.youtube.com/watch?v=95aPwWjnr7g&list=PLys0y7BbmBrZUJb_y08GkSoTXt6rTlbq5"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <i className="fas fa-play" />
-                Watch video
+                Palinha no YouTube
               </Button>
             </GridItem>
           </GridContainer>

@@ -9,7 +9,7 @@ export default class _error extends Component {
   render() {
     return (
       <div>
-        <h2> Colé?!?1 Ta perdido nóia?</h2>
+        <h2> Colé?!? Ta perdido nóia?</h2>
       </div>
     );
   }

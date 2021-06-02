@@ -21,6 +21,16 @@ export default class Index extends Component {
           {" "}
           Componentes de exemplo{" "}
         </Button>
+        <hr />
+        <Button
+          variant="contained"
+          color="primary"
+          onClick={() => {
+            Router.push("/landing");
+          }}
+        >
+          Landing
+        </Button>
       </Container>
     );
   }

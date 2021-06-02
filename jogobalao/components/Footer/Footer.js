@@ -30,23 +30,14 @@ export default function Footer(props) {
     <footer className={footerClasses}>
       <div className={classes.container}>
         <div className={classes.left}>
-          <List className={classes.list}>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://www.creative-tim.com/?ref=njsmk-footer"
-                className={classes.block}
-                target="_blank"
-              >
-                Creative Tim
-              </a>
-            </ListItem>
+          <List className={classes.list}>            
             <ListItem className={classes.inlineBlock}>
               <a
                 href="https://www.creative-tim.com/presentation?ref=njsmk-footer"
                 className={classes.block}
                 target="_blank"
               >
-                About us
+                Sobre nós
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
@@ -55,7 +46,7 @@ export default function Footer(props) {
                 className={classes.block}
                 target="_blank"
               >
-                Blog
+                Dicas e tutoriais
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
@@ -64,22 +55,13 @@ export default function Footer(props) {
                 className={classes.block}
                 target="_blank"
               >
-                Licenses
+                Termos de uso e politica de privacidade
               </a>
             </ListItem>
           </List>
         </div>
         <div className={classes.right}>
-          &copy; {1900 + new Date().getYear()} , made with{" "}
-          <Favorite className={classes.icon} /> by{" "}
-          <a
-            href="https://www.creative-tim.com?ref=njsmk-footer"
-            className={aClasses}
-            target="_blank"
-          >
-            Creative Tim
-          </a>{" "}
-          for a better web.
+          &copy; {1900 + new Date().getYear()} - Anderson Rissardi             
         </div>
       </div>
     </footer>
