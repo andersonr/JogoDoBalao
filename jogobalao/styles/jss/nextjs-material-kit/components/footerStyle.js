@@ -55,5 +55,10 @@ const footerStyle = {
     position: "relative",
     top: "3px",
   },
+  navLink: {
+    color: "black",
+    marginLeft: "2px",
+    marginRight: "2px",
+  }
 };
 export default footerStyle;
