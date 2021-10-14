@@ -16,6 +16,7 @@ import GridItem from "components/Grid/GridItem.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import NavPills from "components/NavPills/NavPills.js";
 import Parallax from "components/Parallax/Parallax.js";
+import Clock from "../components/WorldTimer/Clock";
 
 import styles from "styles/jss/nextjs-material-kit/pages/profilePage.js";
 
@@ -81,6 +82,11 @@ export default function ProfilePage(props) {
                 feel with a solid groove structure.{" "}
               </p>
             </div>
+            <GridContainer justify="center" >
+                <GridItem xs={12} sm={12} md={4}>
+                  <Clock cidade="Brasilia" gmt={-3} ></Clock>
+                </GridItem>
+            </GridContainer>
             <GridContainer justify="center">
               <GridItem xs={12} sm={12} md={8} className={classes.navWrapper}>
                 <NavPills
